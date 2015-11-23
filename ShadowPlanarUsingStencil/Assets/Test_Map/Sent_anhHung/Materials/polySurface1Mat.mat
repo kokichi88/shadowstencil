@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: polySurface1Mat
+  m_Shader: {fileID: 4800000, guid: e1e08fffac9d4411e8a786527cbeb089, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4a1809ee263434c0fb41976257685bff, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDFTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a7f8e635d5c20499f95f2b5ec3bc0a5a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _basetexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 4a1809ee263434c0fb41976257685bff, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: 6b8bb9e15447b4c5cafae532877b57a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: 6b8bb9e15447b4c5cafae532877b57a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ToonRampTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6b8bb9e15447b4c5cafae532877b57a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _AlphaCut
+        second: .214285731
+      data:
+        first:
+          name: _alpha
+        second: 1
+      data:
+        first:
+          name: _Outline
+        second: .200000003
+      data:
+        first:
+          name: _ambientscale
+        second: 1
+      data:
+        first:
+          name: _rimlightscale
+        second: .5
+      data:
+        first:
+          name: _rimlightpower
+        second: 20
+      data:
+        first:
+          name: _OutlineDiffusion
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .800000012, g: .800000012, b: .800000012, a: 1}
+      data:
+        first:
+          name: _SColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _rimlightcolor
+        second: {r: .98691684, g: 1, b: .0514705777, a: 1}

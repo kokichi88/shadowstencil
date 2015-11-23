@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ray
+  m_Shader: {fileID: 4800000, guid: 91fd63a62b9d04f599aeff6119df1c45, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 344163141f8e34fc8a34ad76085f76e3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _basetexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 0ff42582df7fa41afae9ecc85142a4f3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _matcap
+        second:
+          m_Texture: {fileID: 2800000, guid: daa6a0ce484bc1147ba58a37cd90b5da, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatCap
+        second:
+          m_Texture: {fileID: 2800000, guid: daa6a0ce484bc1147ba58a37cd90b5da, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _normalmap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _maskmap1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _maskmap2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: e932c54d6500f9c46b63c4d9d03387d2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDFTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6b8bb9e15447b4c5cafae532877b57a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: 6b8bb9e15447b4c5cafae532877b57a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _diffuseMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 344163141f8e34fc8a34ad76085f76e3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _normalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatRim
+        second:
+          m_Texture: {fileID: 2800000, guid: bc375fb05aff7e34abd4f3bce7e85de2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ToonRampTex
+        second:
+          m_Texture: {fileID: 2800000, guid: d440902fad11e807d00044888d76c639, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EdgeRampTex
+        second:
+          m_Texture: {fileID: 2800000, guid: fbf54b4694aa447ab90b68c6072696dc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _diffuseMap2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _normalMap2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _diffuseMap3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _normalMap3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _blendMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatcapTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp2D
+        second:
+          m_Texture: {fileID: 2800000, guid: f2dadaf5c18c7460ba8665e518dca82c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
+          name: _Shininess
+        second: .699999988
+      data:
+        first:
+          name: _ambientscale
+        second: 1
+      data:
+        first:
+          name: _diffusescale
+        second: 1
+      data:
+        first:
+          name: _mulscale
+        second: 0
+      data:
+        first:
+          name: _addscale
+        second: 2
+      data:
+        first:
+          name: _Outline
+        second: .0187500007
+      data:
+        first:
+          name: _OutlineDiffusion
+        second: 0
+      data:
+        first:
+          name: _rimlightscale
+        second: 1
+      data:
+        first:
+          name: _rimlightblendtofull
+        second: 0
+      data:
+        first:
+          name: _specularexponent
+        second: 1
+      data:
+        first:
+          name: _specularscale
+        second: 1
+      data:
+        first:
+          name: _specularblendtofull
+        second: 0
+      data:
+        first:
+          name: _selfillumblendtofull
+        second: 0
+      data:
+        first:
+          name: _alpha
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: 1.64285719
+      data:
+        first:
+          name: _ZSmooth
+        second: -2.96428561
+      data:
+        first:
+          name: _rimlightpower
+        second: 15.8000002
+      data:
+        first:
+          name: _AlphaCut
+        second: .375
+      data:
+        first:
+          name: _specularPower
+        second: 10
+      data:
+        first:
+          name: _RimMin
+        second: .507142901
+      data:
+        first:
+          name: _RimMax
+        second: 1
+      data:
+        first:
+          name: _MatCapBlendFactor
+        second: 1
+      data:
+        first:
+          name: _specularPower2
+        second: 10
+      data:
+        first:
+          name: _blendPower2
+        second: 1
+      data:
+        first:
+          name: _blendOffset2
+        second: 0
+      data:
+        first:
+          name: _blendAlpha
+        second: 1
+      data:
+        first:
+          name: _specularPower3
+        second: 10
+      data:
+        first:
+          name: _blendPower
+        second: 5
+      data:
+        first:
+          name: _blendOffset
+        second: .5
+      data:
+        first:
+          name: _FrenselPower
+        second: 1
+      data:
+        first:
+          name: _Blend
+        second: .5
+      data:
+        first:
+          name: _Intensity
+        second: .800000012
+      data:
+        first:
+          name: _LightingIntensity
+        second: .800000012
+      data:
+        first:
+          name: _factorA
+        second: 1
+      data:
+        first:
+          name: _factorB
+        second: 1
+      data:
+        first:
+          name: _factorC
+        second: 1
+      data:
+        first:
+          name: _factorD
+        second: 1
+      data:
+        first:
+          name: _BlendAlpha
+        second: -3
+      data:
+        first:
+          name: _Cut
+        second: -.300000012
+      data:
+        first:
+          name: _MainTexIntense
+        second: 2.5
+      data:
+        first:
+          name: _RampTexIntense
+        second: .5
+      data:
+        first:
+          name: _OutlineThickness
+        second: .300000012
+      data:
+        first:
+          name: _RimPow
+        second: 1.85000002
+    m_Colors:
+      data:
+        first:
+          name: _LightDir
+        second: {r: 42.1399994, g: -121.900002, b: -36.2999992, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _ShadowColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _rimlightcolor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _specularcolor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _behindwallColor
+        second: {r: 0, g: .477941155, b: .398833603, a: 1}
+      data:
+        first:
+          name: _SColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 1, g: 1, b: 1, a: .600000024}
+      data:
+        first:
+          name: _ScrollSpeed
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _diffuseColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _specularColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _specularColor2
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ambientColorSnow
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _specularColor3
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _rimColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _underwallColor
+        second: {r: .852941155, g: .301038027, b: .301038027, a: 1}
+      data:
+        first:
+          name: _RimCol
+        second: {r: .453341246, g: .928038836, b: .948529422, a: 1}

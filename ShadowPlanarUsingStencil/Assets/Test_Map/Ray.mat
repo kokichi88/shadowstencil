@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ray
+  m_Shader: {fileID: 4800000, guid: 99d40b3b9c4214f03a8fee641f0613f6, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: bb1d08e9c2c534075b8fd295d2ac5f42, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: tDiffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 06580648b044046ee8bbc0c62387a16f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _diffuseMap
+        second:
+          m_Texture: {fileID: 2800000, guid: bb1d08e9c2c534075b8fd295d2ac5f42, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _normalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b7dbf71efabaa4780898446a50517237, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDFTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _lavaEmissiveMaskTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 04119b4b81f7d49b89a2106ef4fbd3eb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _diffuseMap2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _normalMap2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _diffuseMap3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _normalMap3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _blendMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: fX
+        second: .280000001
+      data:
+        first:
+          name: fY
+        second: .589999974
+      data:
+        first:
+          name: fExposure
+        second: 1.47000003
+      data:
+        first:
+          name: fDecay
+        second: .870000005
+      data:
+        first:
+          name: fDensity
+        second: 3.66000009
+      data:
+        first:
+          name: fWeight
+        second: .689999998
+      data:
+        first:
+          name: fClamp
+        second: 5.46999979
+      data:
+        first:
+          name: _Outline
+        second: 1
+      data:
+        first:
+          name: _specularPower
+        second: 10
+      data:
+        first:
+          name: _AlphaCut
+        second: 0
+      data:
+        first:
+          name: _OutlineDiffusion
+        second: 1
+      data:
+        first:
+          name: _FrenselPower
+        second: 2.5
+      data:
+        first:
+          name: addMixVal
+        second: 1.42857146
+      data:
+        first:
+          name: offsetX
+        second: .357142866
+      data:
+        first:
+          name: offsetY
+        second: .821428597
+      data:
+        first:
+          name: SineSpeed
+        second: .722571433
+      data:
+        first:
+          name: WaveSinSpeed
+        second: 2
+      data:
+        first:
+          name: LavaSinWaveFactor
+        second: 7.67857122
+      data:
+        first:
+          name: _specularPower2
+        second: 10
+      data:
+        first:
+          name: _blendPower2
+        second: 1
+      data:
+        first:
+          name: _blendOffset2
+        second: 0
+      data:
+        first:
+          name: _blendAlpha
+        second: 1
+      data:
+        first:
+          name: _specularPower3
+        second: 10
+      data:
+        first:
+          name: _blendPower
+        second: 5
+      data:
+        first:
+          name: _blendOffset
+        second: .5
+      data:
+        first:
+          name: _alphaFrenselPower
+        second: 1
+      data:
+        first:
+          name: _alphaFrenselBias
+        second: .5
+      data:
+        first:
+          name: _uvPanSpeedX
+        second: .100000001
+      data:
+        first:
+          name: _uvPanSpeedY
+        second: .5
+      data:
+        first:
+          name: _doubleSampleScale
+        second: 1.5
+      data:
+        first:
+          name: _doubleSampleOffset
+        second: .899999976
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _diffuseColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _specularColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _rimColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ScrollSpeed
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: offsetVectorXY
+        second: {r: 5, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: deformSinVert
+        second: {r: 0, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _specularColor2
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ambientColorSnow
+        second: {r: .0500000007, g: .5, b: .0500000007, a: 1}
+      data:
+        first:
+          name: _specularColor3
+        second: {r: 1, g: 1, b: 1, a: 1}
